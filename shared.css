@@ -2,18 +2,50 @@ body {
     font-family: "Quicksand" , sans-serif;
     margin: 0;
 }
-
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
+   
 }
 #page-logo a { 
     padding: 10px;
     font-family: "oleo script" , sans-serif;
-    color: #558B2F;
+    color:  rgb(255, 251, 0);
     font-size: 40px;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px #212121;
     text-decoration: none;
+}
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+ }
+header ul { 
+    display: flex;
+    justify-content: flex-end;
+}
+
+ header li {
+    margin-right: 20px;
+
+}
+
+header .nav {
+    text-decoration: none;
+    color: rgb(255, 251, 0);
+    border-radius: 8px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(77, 77, 77, 0.2);
+}
+
+header  .nav:hover { 
+    color: rgba(0, 0, 0 );
+    background-color:  rgb(255, 251, 0);
+    padding: 10px;
 }
